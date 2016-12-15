@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nav.chartsdemo.PieChartFragment"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/top_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIE Chart"
+        android:layout_centerHorizontal="true"
+        />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_textView"/>
+</RelativeLayout>
